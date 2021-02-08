@@ -1,0 +1,41 @@
+body {
+    background: #ffffff !important;
+    min-height: 100vh;
+    display: flex;
+    font-weight: 400;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+#app {
+    width: 99%;
+}
+
+.icecream-theme-color-1 {
+    background-color: #8dbfcf;
+    text-align: left;
+}
+
+.nav a:hover, .nav a.router-link-active, .nav a.router-link-exact-active, .ddp-theme-color-2 {
+    background-color: #c6dfe7;
+}
+
+.icecream-theme-color-3 {
+    background-color: #c6dfe7;
+}
+
+.no-arrow {
+    -moz-appearance: textfield;
+}
+
+.no-arrow::-webkit-inner-spin-button {
+    display: none;
+}
+
+.no-arrow::-webkit-outer-spin-button, .no-arrow::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
